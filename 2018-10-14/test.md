@@ -77,10 +77,15 @@ forEach(v => {
 
 # 表格
 表头用来-分割出来, 可以内联其他语法
-|First Header|Second Header| 
-|-----|-----| 
-| Content Cell  | ~~Content Cell~~  | 
-| **Content Cell**  | *Content Cell*  | 
+
+|表头|表头|
+|-----|------|
+| 头部 | head |
+| 主体 | body |
+| 尾部 | foot |
+| 主栏 | main |
+| 侧栏 | side |
+| 容器 | 	wrap/box |
 
 
 
