@@ -51,7 +51,7 @@
 [专栏](https://zhuanlan.zhihu.com/lixianjie "深蓝的博客")
 <https://zhuanlan.zhihu.com/lixianjie>
 
-![tupian](../img/7.jpg "示例图片")
+![tupian](https://github.com/qq1073830130/blog/blob/master/2018-10-14/img/7.jpg "示例图片")
 
 # 代码
 内联代码
