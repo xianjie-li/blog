@@ -76,21 +76,12 @@ forEach(v => {
 ```
 
 # 表格
-表头用来-分割出来
-|First Header|Second Header 
-|-------------|------------- 
-| Content Cell  | Content Cell 
-| Content Cell  | Content Cell 
-也可以在两端都加上 \|
+表头用来-分割出来 
+
 |First Header|Second Header| 
-|-------------|-------------| 
+|-----|-----| 
 | Content Cell  | ~~Content Cell~~  | 
 | **Content Cell**  | *Content Cell*  | 
-加上:可以指定对其方式 
-|右|左|居中| 
-|---:|:---|:---:|
-| right | left | 居中对齐 | 
-| r | l | 中 | 
 
 <br>
 <br>
