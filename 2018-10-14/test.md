@@ -44,7 +44,7 @@
 <br />
 <br />
 <br />
-这是*斜体*, **加粗**, _斜体_, __加粗__，
+这是*斜体*, **加粗**, _斜体_, __加粗__ ~~Mistaken~~，
 
 
 # 连接和图片
@@ -58,7 +58,7 @@
 `alert('msg')`
 
 块级代码
-``` js
+```js
 // js示例
 const loggerMiddleware = store => next => action => {
   console.log('prev', store.getState())
@@ -70,7 +70,7 @@ const loggerMiddleware = store => next => action => {
 
 ----
 
-``` css
+```css
 // css示例
 .iconfont {
   display: inline-block;
@@ -93,7 +93,7 @@ const loggerMiddleware = store => next => action => {
 
 ----
 
-``` html
+```html
 <!-- html示例 -->
 <!DOCTYPE html>
 <html lang="zh-CN">
