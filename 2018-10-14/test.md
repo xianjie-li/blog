@@ -82,12 +82,6 @@ forEach(v => {
 | Content Cell  | ~~Content Cell~~  |
 | **Content Cell**  | *Content Cell*  |
 
-对其方式
-|First Header|Second Header|Second Header|
-|-----:|:-----|:-----"|
-| Content Cell  | ~~Content Cell~~  | ~~Content Cell~~  |
-| **Content Cell**  | *Content Cell*  | *Content Cell*  |
-
 <br>
 <br>
 
