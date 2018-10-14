@@ -55,7 +55,7 @@ _斜体_ __斜体__
 标准
 [链接名](https://zhuanlan.zhihu.com/lixianjie "深蓝") 
 图片
-![图片名](https://github.com/qq1073830130/blog/blob/master/2018-10-14/img/7.jpg?raw=true "描述")
+![图片名](https://github.com/qq1073830130/blog/blob/master/img/7.jpg?raw=true "描述")
 
 # 代码
 #### 内联代码
