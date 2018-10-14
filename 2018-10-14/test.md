@@ -1,3 +1,4 @@
+以下语法都是github标准的markdown语法
 #目录
 一到六级的标题会自动被提取为目录（github不支持）
 [TOC]
@@ -47,9 +48,9 @@ _斜体_ __斜体__
 
 # 链接
 快速链接
-<https://zhuanlan.zhihu.com/>
+<https://zhuanlan.zhihu.com/> 
 标准
-[链接名](https://zhuanlan.zhihu.com/lixianjie "深蓝")
+[链接名](https://zhuanlan.zhihu.com/lixianjie "深蓝") 
 图片
 ![图片名](https://github.com/qq1073830130/blog/blob/master/2018-10-14/img/7.jpg?raw=true "描述")
 
@@ -76,27 +77,27 @@ forEach(v => {
 
 # 表格
 表头用来-分割出来
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell
+First Header  | Second Header 
+------------- | ------------- 
+Content Cell  | Content Cell 
+Content Cell  | Content Cell 
 也可以在两端都加上 \|
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | ~~Content Cell~~  |
-| **Content Cell**  | *Content Cell*  |
-加上:可以指定对其方式
-| 右 | 左 | 居中 |
+| First Header  | Second Header | 
+| ------------- | ------------- | 
+| Content Cell  | ~~Content Cell~~  | 
+| **Content Cell**  | *Content Cell*  | 
+加上:可以指定对其方式 
+| 右 | 左 | 居中 | 
 | ---: | :--- | :---: |
-| right | left | 居中对齐 |
-| r | l | 中 |
+| right | left | 居中对齐 | 
+| r | l | 中 | 
 
-<br /> <br />
+<br>
+<br>
 
 # 引用 
 > 引用
   >> 引用2
-    >>> 引用3
 
 <br>
 <br>
