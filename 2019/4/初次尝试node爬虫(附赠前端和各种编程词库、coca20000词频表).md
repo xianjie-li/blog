@@ -6,7 +6,7 @@
 
 但是，问题又来了。每个单词软件的词库量都参差不齐，而且词库大都是服务在校生，各种考研人员。不过所幸有的单词软件支持用户自己上传词库, 下面是我用积分买的一些单词书
 
-![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/1.png "单词书")
+![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/1.png?raw=true "单词书")
 
 在这里再次感谢这些单词书的收集者😁。
 
@@ -46,21 +46,21 @@ html结构:
 
 因为单词分为多个章节，需要先获取到各个章节的列表指向的地址
 
-![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/2.png "单词书")
-![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/3.png "单词书")
+![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/2.png?raw=true "单词书")
+![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/3.png?raw=true "单词书")
 
 <br/>
 
 内页结构
 
-![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/4.png "单词书")
-![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/5.png "单词书")
+![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/4.png?raw=true "单词书")
+![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/5.png?raw=true "单词书")
 
 <br/>
 
 数据大于20条时会出现分页
 
-![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/6.png "单词书")
+![图片名](https://github.com/qq1073830130/blog/blob/master/2019/4/img/6.png?raw=true "单词书")
 
 
 <br/>
