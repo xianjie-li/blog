@@ -60,7 +60,7 @@ const transitionStyles = {
 <br>
 
 #### unmountOnExit
-<bool = false
+<bool = false>
 在过渡结束后卸载组件, 测试发现这里确实卸载了子组件生成的dom节点，但是并不会触发componentWillUnmount钩子，在子组件重新进入entered状态时也不会重新触发componentDidMount等创建阶段钩子
 
 <br>
