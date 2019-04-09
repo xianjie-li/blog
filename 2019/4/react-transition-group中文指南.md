@@ -1,6 +1,42 @@
+
+<!-- TOC -->
+
+- [Transtion 组件](#transtion-组件)
+  - [基本示例](#基本示例)
+  - [props](#props)
+      - [children](#children)
+      - [in](#in)
+      - [mountOnEnter](#mountonenter)
+      - [unmountOnExit](#unmountonexit)
+      - [appear](#appear)
+      - [enter](#enter)
+      - [exit](#exit)
+      - [timeout](#timeout)
+      - [addEndListener](#addendlistener)
+      - [onEnter](#onenter)
+      - [onEntering  *](#onentering--)
+      - [onEntered](#onentered)
+      - [onExit](#onexit)
+      - [onExiting](#onexiting)
+      - [onExited](#onexited)
+- [CSSTransition](#csstransition)
+  - [各阶段的名词解释及包含类名](#各阶段的名词解释及包含类名)
+  - [props](#props-1)
+      - [classNames](#classnames)
+- [TransitionGroup](#transitiongroup)
+  - [通过css动画非常简单的实现列表过渡](#通过css动画非常简单的实现列表过渡)
+  - [props](#props-2)
+      - [component](#component)
+      - [children](#children-1)
+      - [appear](#appear-1)
+      - [enter](#enter-1)
+      - [exit](#exit-1)
+      - [childFactory](#childfactory)
+
+<!-- /TOC -->
+
 react-transition-group与其他react动画框架相比优势还是比较明显的，体积非常小，gzip之后只有5k不到、只提供动画状态，具体的动画实现完全由自己掌控，对于业务开发这点是很重要的，在只需要一些基础的页面、组件基础动效时直接用js和css实现，涉及一些交互效果比较多的页面时可以通过提供的钩子很好的接入TweenMax这样的动画库，可以说是非常有弹性了。
 
-# 动画的4个基本阶段
 
 1. 'entering'   ->  进场动画正在进行
 2. 'entered'   ->  进场动画执行完成
