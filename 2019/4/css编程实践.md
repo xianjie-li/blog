@@ -226,24 +226,24 @@ sass-|
 
 **布局**  
 
-![布局](./img/buju.png)
+![布局](https://raw.githubusercontent.com/Iixianjie/blog/master/2019/4/img/buju.png)
 
 <br>
 
 **块、元素**  
 
-![块、元素](./img/bae.png)  
+![块、元素](https://raw.githubusercontent.com/Iixianjie/blog/master/2019/4/img/bae.png)  
 
-![块、元素](./img/bae2.png)
+![块、元素](https://raw.githubusercontent.com/Iixianjie/blog/master/2019/4/img/bae2.png)
 
 <br>
 
 **颜色**  
 
-![块、元素](./img/color.png)
+![块、元素](https://raw.githubusercontent.com/Iixianjie/blog/master/2019/4/img/color.png)
 
 <br>
 
 **状态**  
 
-![块、元素](./img/status.png)
+![块、元素](https://raw.githubusercontent.com/Iixianjie/blog/master/2019/4/img/status.png)
