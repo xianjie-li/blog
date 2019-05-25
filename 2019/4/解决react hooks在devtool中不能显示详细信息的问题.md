@@ -16,3 +16,7 @@
 1. 进入 <https://react-devtools-experimental.now.sh /> 点击1.download extension
 2. chrome 打开 `chrome://extensions/`，注意这里直接安装是不能使用的，因为该扩展没有再应用商店上架，将下载好的扩展文件后缀改为zip然后解压到一个空文件夹中。然后点开扩展页右上角的开发者模式，点击加载已解压的扩展程序选择刚才的哪个文件夹并重启chrome。
 ![](https://raw.githubusercontent.com/qq1073830130/blog/master/2019/4/img/7.png)
+
+## 更新
+可以使用最新的hook usedebugvalue 来显示hook数据
+<https://zh-hans.reactjs.org/docs/hooks-reference.html#usedebugvalue>
