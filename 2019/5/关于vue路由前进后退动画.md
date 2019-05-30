@@ -30,8 +30,8 @@ watch: {
 
 ```js
 const router = new VueRouter(...);
-let _back = router.back();
-let _push = router.push();
+let _back = router.back;
+let _push = router.push;
 
 router.back = (...args) => {
     console.log('后退鸟!');
