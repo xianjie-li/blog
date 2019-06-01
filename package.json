@@ -1,0 +1,20 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "[本博客与知乎专栏同步](https://zhuanlan.zhihu.com/lixianjie)\r ：)",
+  "main": "index.js",
+  "scripts": {
+    "pull": "git pull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qq1073830130/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qq1073830130/blog/issues"
+  },
+  "homepage": "https://github.com/qq1073830130/blog#readme"
+}
