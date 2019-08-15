@@ -1,4 +1,4 @@
-<h1 align="center">为react-router实现无副作用的路由动画<h1>
+<h1 align="center">为react-router实现无副作用的路由动画</h1>
 
 下面是比较常见的一种react-router动画实现方式:
 
