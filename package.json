@@ -1,11 +1,8 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "[本博客与知乎专栏同步](https://zhuanlan.zhihu.com/lixianjie)\r ：)",
+  "description": "",
   "main": "index.js",
-  "scripts": {
-    "pull": "git pull"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/qq1073830130/blog.git"

@@ -83,6 +83,18 @@ useEffect(() => {
 }, []);
 ```
 
+<br>
+<br>
+
+### 为Effect回调添加名字
+```js
+useEffect(function mounted() {
+  console.log(123);
+}, []);
+
+或者在前面加上注释，命名回调能在出错时获得精确的报错信息，而且在devtool中也能获得友好的提示
+```
+![](./2``[_1~}I4{`}L9GWQ[]8WI.png)
 
 
 
