@@ -1,5 +1,7 @@
 <h1 align="center">为react-router实现无副作用的路由动画</h1>
 
+
+
 下面是比较常见的一种react-router动画实现方式:
 
 ```jsx
@@ -76,7 +78,7 @@
 
 ![](./xxx10.png)
 
-把所有Route都移到一个包装元素内，当没有组件被渲染时，元素为空，这时就触发了:empty选择器，通过伪类来设置文字提示或者图片提示即可。
+把所有Route都移到一个包装元素内，当没有组件被渲染时，元素为空，这时就触发了:empty选择器，通过伪类来设置文字提示或者图片提示即可， 这种方式甚至不用依赖js。
 
 
 
@@ -89,8 +91,9 @@
 ```js
 <Route path="/about" component={About} meta={{name: 'lxj', age: 'xxx'}} />
 ```
+地址在这里： 
 
-react-transition-route
+<https://github.com/Iixianjie/react-transition-route>
 
 
 
