@@ -7,7 +7,7 @@
 ```jsx
 <TransitionGroup>
     <CSSTransition
-        key={location.key}
+        key={location.key} // 关键位置
         classNames="fade"
         timeout={300}
         >
@@ -82,13 +82,31 @@
 
 把所有Route都移到一个包装元素内，当没有组件被渲染时，元素为空，这时就触发了:empty选择器，通过伪类来设置文字提示或者图片提示即可， 这种方式甚至不用依赖js。
 
+**2019/9/19更新:**
+
+<https://github.com/Iixianjie/react-transition-route>在新版本的react-transition-route中加入了编程方式处理404的方法
+
+```js
+// 处理404
+function onPageNotFound(history, url) {
+  // history.replace('/not-found?url=' + url);
+}
+
+<WrapRouter onNotFound={onPageNotFound}>
+```
+
+> WrapRouter组件内部通过`import { matchPath } from 'react-router-dom';`来判断是否正确匹配
 
 
-对于上面的解决方案，我上传了一个开箱即用的组件到npm，它包括如下功能：  
 
-* 仿原生的路由动画(主要路由fade，子路由进入时右滑入，离开时右滑出)
-* 可根据CSSTransition规则自定义路由动画
-* 路由变更监听，可以通过下面这样的方式传入额外数据，然后在指定的位置进行接收
+
+
+对于上面的方案，上传了一个开箱即用的组件到npm，它包括如下功能：  
+
+* 路由动画由`<Route>`单独管理，更可控并且性能更好(相对于`<Switch key={location.key}>{...}</Switch>`，它会在路由切换时整个替换组件树，无论是子路由还是父路由!)
+* 内置fade、slide两种动画类型，分别用于主次路由切换
+* 传递`keepAlive`缓存路由页面
+* 路由变更监听，可以通过下面这样的方式传入额外数据，然后通过指定的方法订阅或者在路由组件中接收它们
 
 ```js
 <Route path="/about" component={About} meta={{name: 'lxj', age: 'xxx'}} />
