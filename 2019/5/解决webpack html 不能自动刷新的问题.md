@@ -86,7 +86,7 @@ devServer: {
 
 ## 解决方式3
 
-同样是设置devServer, 使用了plugin的api来监听编译结束并触发更新。
+同样是设置devServer, 编译完成后检查变更的是否为模板文件，是的话通过server.sockWrite触发重载
 
 ```js
 devServer: {
