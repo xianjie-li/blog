@@ -24,6 +24,7 @@
 [`git`](https://github.com/Iixianjie/blog/issues?q=label%3AGit)
 [`Vue`](https://github.com/Iixianjie/blog/issues?q=label%3AVue)
 [`webpack`](https://github.com/Iixianjie/blog/issues?q=label%3Awebpack)
+[`gist`](https://github.com/Iixianjie/blog/issues?q=is%3Aopen+is%3Aissue+label%3Agist)
 [`wx小程序`](https://github.com/Iixianjie/blog/issues?q=label%3Awx小程序)
 [`后端开发`](https://github.com/Iixianjie/blog/issues?q=label%3A后端开发)
 [`技巧`](https://github.com/Iixianjie/blog/issues?q=label%3A技巧)
